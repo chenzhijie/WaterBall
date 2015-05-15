@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30" >
+
+        <Button
+            android:id="@+id/id_newgamebtn"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/blue_button"
+            android:text="@string/newgame" />
+
+        <Button
+            android:id="@+id/id_scorebtn"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:layout_alignLeft="@+id/id_newgamebtn"
+            android:layout_below="@+id/id_newgamebtn"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button"
+            android:text="@string/score" />
+
+        <Button
+            android:id="@+id/id_exitgamebtn"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:layout_alignLeft="@+id/id_scorebtn"
+            android:layout_below="@+id/id_scorebtn"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button"
+            android:text="@string/exitgame" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="138dp"
+            android:background="@drawable/wblogo"
+            android:contentDescription="@drawable/wblogo" />
+
+    </RelativeLayout>
+
+</LinearLayout>

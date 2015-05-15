@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WaterBall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="newgame">开始新游戏</string>
+    <string name="score">分数排行榜</string>
+    <string name="exitgame">退出游戏</string>
+    <color name="black">#ff000000</color>
+    <color name="gray">#7B797B</color>
+    <string name="gamescore">游戏分数</string>
+    <string name="scorelist">分数排行榜</string>
+    <string name="Return">返回</string>
+
+</resources>
